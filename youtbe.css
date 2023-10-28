@@ -106,6 +106,13 @@ padding: 5px 5%;
     background-color: rgb(61, 111, 228);
     color: white;
 }
+.list_of_videos a{
+text-decoration:none;
+
+}
+a h4{
+    color: black;
+}
 /*************************responsiviness media queries***********************************/
 @media (max-width:1021px){
     .container{
