@@ -66,6 +66,36 @@ gap: 15px;
 align-items: flex-start;
 padding: 5px 5%;
 }
+/*****************************button on the top***********************/
+.button{
+    display: flex;
+    padding: .5rem;
+    padding-left: 2rem;
+}
+.button button{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
+}
+.button .sbutton{
+    margin-left: 1rem;
+
+}
+.button .sbutton:hover{
+    background-color: #dedcdc;
+}
+.button .fbutton{
+    background-color: black;
+    color: white;
+}
+
+/*****************************************************************************/
+.vide{
+    height: 18vh;
+}
 .container .active_video video{
     width: 100%;
     background-color: #fff;
